@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Lato&family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+.chart{
+  width: 15.4375rem;
+}
+.apexcharts-legend {
+    font-size: 0.875rem; 
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    font-weight: 500;
+  }
+  .apexcharts-legend-series {
+    margin-right: 0.625rem; 
+  }
+  .footer{
+    background-color: #FFFFFF;
+    height: 17.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 30.9375rem;
+    border: 0.125rem solid #E0E0E0;
+    box-shadow: 0.25rem 0.25rem 1.25rem 0px #0000001A;
+    border-radius: 1.25rem;
+  }
+  .first{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+  }
+  .second{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.875rem;
+    align-items: center;
+    position: relative;
+    top:0.625rem;
+  }
+  .first p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+  .legend{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    gap:0.75rem;
+    height: 2.8125rem;
+  }
+  .legend span{
+    width: 0.625rem;
+    height: 0.625rem;
+    position: relative;
+    top:0.28125rem;
+    left: 0.125rem;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  }
+  .legend div h4{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 1.1875rem;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+  }
+  .legend div p{
+    position: relative;
+    bottom: 1.75rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #858585;
+  }
+  .third{
+    position: relative;
+    bottom: 2rem;
+    left:1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color:#858585;
+  }
+@media(max-width:1365px){
+  .legend div h4{
+    bottom: 1.1875rem;
+    font-size: 0.9375rem;
+  }
+}
+@media(max-width:1262px){
+  .legend div h4{
+    bottom: 1.1875rem;
+    font-size: 0.7375rem;
+  }
+  .third{
+    font-size: 0.6rem;
+  }
+}
+@media(max-width:1110px){
+  .chart{
+    width:200px;
+  }
+  .first p{
+    font-size: 1rem;
+  }
+}
+@media(max-width:985px){
+  .chart{
+    width:180px;
+  }
+  .first p{
+    font-size: 0.8rem;
+  }
+  .legend div h4{
+    bottom: 1.1875rem;
+    font-size: 0.6375rem;
+  }
+  .third{
+    font-size: 0.5rem;
+    bottom: 2.5rem;
+  }
+}
+@media(max-width:768px){
+  .chart{
+    width: 200px;
+  }
+    .footer{
+      height:17.875rem;
+      width: 100%;
+    }
+    .first{
+      width: 50%;
+      gap:2rem;
+    }
+    .second{
+      width:50%;
+      gap:0.875rem;
+      top:0.625rem;
+    }
+    .first p{
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .legend{
+      display: flex;
+      flex-direction: row;
+      width:90%;
+      gap:0.75rem;
+      height: 2.8125rem;
+    }
+    .legend span{
+      width: 0.625rem;
+      height: 0.625rem;
+      top:0.28125rem;
+      left: 0.125rem;
+    }
+    .legend div h4{
+      bottom: 1.1875rem;
+      font-size: 0.9375rem;
+    }
+    .legend div p{
+      bottom: 1.75rem;
+      font-size: 0.75rem;
+    }
+    .third{
+      bottom: 2rem;
+      left:1rem;
+      font-size: 0.8125rem;
+
+    }
+}
+@media(max-width:729px){
+  .legend div h4{
+    bottom: 1rem;
+    font-size: 0.8375rem;
+  }
+  .third{
+    font-size: 0.6rem;
+  }
+}
+@media(max-width:584px){
+  .first{
+    gap:1rem;
+  }
+  .first p{
+    font-size: 1rem;
+  }
+}
+@media(max-width:670px){
+  .chart{
+    width: 180px;
+  }
+    .footer{
+      height:14.875rem;
+      width: 100%;
+    }
+    .first{
+      width: 50%;
+      gap:1rem;
+    }
+    .second{
+      width:50%;
+      gap:0.675rem;
+      top:0.525rem;
+    }
+    .first p{
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .legend{
+      display: flex;
+      flex-direction: row;
+      width:90%;
+      gap:0.65rem;
+      height: 2.8125rem;
+    }
+    .legend span{
+      width: 0.525rem;
+      height: 0.525rem;
+      top:0.28125rem;
+      left: 0.125rem;
+    }
+    .legend div h4{
+      bottom: 1rem;
+      font-size: 0.8rem;
+    }
+    .legend div p{
+      bottom: 1.75rem;
+      font-size: 0.75rem;
+    }
+    .third{
+      bottom: 1rem;
+      left:1rem;
+      font-size: 0.6125rem;
+
+    }
+}
+
+

@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree&family=Lato&family=Montserrat&family=Open+Sans&display=swap");
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  height: auto;
+}
+.content {
+  width: 30%;
+  height: 6rem;
+  gap:1rem;
+  padding: 0.8rem 1rem;
+  border: 2px solid rgba(224, 224, 224, 1);
+  box-shadow: 3px 4px 11px 0px #62626226;
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+}
+.icon {
+  font-size: 1.25rem;
+  color: white;
+  background-color: #7fcd93;
+  padding: 2.5%;
+  border-radius: 50%;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  height: 60%;
+  flex-direction: row;
+}
+.first div {
+  display: flex;
+  flex-direction: column;
+}
+.first div p {
+  position: relative;
+  bottom: 0.9rem;
+  font-family: "Lato", sans-serif;
+}
+.first div h3 {
+  position: relative;
+  bottom: 62%;
+  font-family: "Open Sans", sans-serif;
+}
+.first .p {
+  position: relative;
+  align-self: flex-end;
+  padding: 3.125%;
+  border-radius: 1rem;
+  top: 0.9rem;
+  font-family: "Figtree", sans-serif;
+  font-family: Figtree;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-align: center;
+  background-color: rgba(233, 249, 235, 1);
+  color: rgba(74, 209, 95, 1);
+}
+@media (max-width: 1269px) {
+  .content {
+    padding: 0.9rem 0.8rem;
+    gap:10px;
+    border-radius: 1rem;
+  }
+  .icon {
+    font-size: 0.9rem;
+  }
+  .first div p {
+    font-size: 0.9rem;
+    bottom: 0.7rem;
+  }
+  .first div h3 {
+    font-size: 1.05rem;
+    bottom: 2.25rem;
+  }
+  .first .p {
+    top: 0.4rem;
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 1139px) {
+    .content{
+        height: 5.5rem;
+    }
+  .first div p {
+    font-size: 0.8rem;
+    bottom: 0.7rem;
+  }
+  .first div h3 {
+    font-size: 1rem;
+    bottom: 2.125rem;
+  }
+  .first .p {
+    top:0.2rem;
+    font-size: 0.58rem;
+  }
+}
+@media (max-width: 1040px) {
+    .header{
+        gap:1rem;
+    }
+}
+@media (max-width: 992px) {
+    .content {
+        height: 5rem;
+        padding: 0.9rem 0.8rem;
+        gap:8px;
+        border-radius: 1rem;
+      }
+    .first div p {
+      font-size: 0.7rem;
+      bottom: 0.7rem;
+    }
+    .first div h3 {
+      font-size: 0.9rem;
+      bottom: 2rem;
+    }
+    .first .p {
+      top:-0.1rem;
+      font-size: 0.58rem;
+    }
+  }
+  @media (max-width:939px) {
+    .header{
+        gap:1.5rem;
+        flex-wrap: wrap;
+    }
+    .content {
+        width: 26%;
+      }
+}
+@media (max-width:894px) {
+    .content {
+        width: 25%;
+      }
+}
+@media (max-width:824px) {
+    .content {
+        width: 24%;
+      }
+}
+@media (max-width:804px) {
+    .content {
+        width: 40%;
+      }
+      .icon {
+        font-size: 0.9rem;
+      }
+      .first div p {
+        font-size: 0.9rem;
+        bottom: 0.7rem;
+      }
+      .first div h3 {
+        font-size: 1.05rem;
+        bottom: 2.25rem;
+      }
+      .first .p {
+        top: 0.7rem;
+        font-size: 0.7rem;
+      }
+}
+@media (max-width:704px) {
+    .header{
+        gap:2.25rem;
+    }
+    .content {
+        width: 38%;
+      }
+}
+@media (max-width:695px) {
+    .header{
+        gap:1.8rem;
+    }
+      .icon {
+        font-size: 0.8rem;
+      }
+      .first div p {
+        font-size: 0.7rem;
+        bottom: 0.6rem;
+      }
+      .first div h3 {
+        font-size: 0.9rem;
+        bottom: 1.9rem;
+      }
+      .first .p {
+        top: 0.4rem;
+        font-size: 0.7rem;
+      }
+}
+@media (max-width:652px) {
+  .header{
+    gap:2.25rem;
+}
+.content {
+    width: 32%;
+  }
+  .first .p {
+    top: -1.15rem;
+  }
+}
+@media (max-width:625px) {
+  .header{
+    gap:0.5rem;
+}
+.content{
+  width: 35%;
+}
+  .first .p {
+    top: -1.4rem;
+    font-size:0.5rem ;
+  }
+}
+@media (max-width:548px) {
+  .header{
+    gap:0.5rem;
+}
+  .first .p {
+    top: -1.7rem;
+    right:0.15rem;
+    font-size: 0.4rem;
+  }
+}

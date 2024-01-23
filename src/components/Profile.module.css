@@ -1,0 +1,217 @@
+.main{
+    background-color: #FFFFFF;
+    height: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 30.9375rem;
+    gap:1.5rem;
+    border: 0.125rem solid #E0E0E0;
+    box-shadow: 0.25rem 0.25rem 1.25rem 0px #0000001A;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    padding:1rem 2.5rem;
+}
+.main p{
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.03em;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+.content .item{
+    height: 2.1875rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.backIcon{
+    width: 2.1875rem;
+    height: 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.data{
+    text-decoration: underline;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: 'Figtree', sans-serif;
+    letter-spacing: 0.07em;
+}
+@media(max-width:1335px) {
+    .content{
+        gap:1rem;
+    }
+}
+@media(max-width:1292px) {
+    .main p{
+        font-size: 1.5rem;
+    }
+    .content{
+        gap:0.5rem;
+    }
+    .backIcon{
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+    .content .data{
+        font-size: 0.775rem;
+    }
+}
+@media(max-width:1292px) {
+    .content{
+        gap:0rem;
+    }
+}
+@media (max-width:1147px){
+    .main{
+        gap:0;
+    }
+    .content{
+        flex-direction:column;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+    }
+    .content .item{
+        flex-direction: row;
+        gap:1rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .backIcon{
+        width: 2.125rem;
+        height: 2.125rem;
+    }
+    .data{
+        font-size: 0.875rem;
+    }
+}
+@media (max-width:893px){
+    .main{
+        gap:0;
+    }
+    .main p{
+        max-width: 50%;
+        font-size: 1rem;
+    }
+    .backIcon{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .data{
+        font-size: 0.675rem;
+    }
+}
+@media (max-width:862px) {
+    .main{
+        gap:1rem;
+        padding: 0.5rem 0 0;
+    }
+    .main p{
+        position: relative;
+        left: 1rem;
+    }
+    .content{
+        position: relative;
+        left:1rem;
+        gap:1rem;
+    }
+    .backIcon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .data{
+        font-size: 0.575rem;
+    }
+}
+@media (max-width:826px){
+    .main p{
+        font-size: 0.8rem;
+    }
+    .backIcon{
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    .data{
+        font-size: 0.475rem;
+    }
+}
+@media(max-width:768px){
+    .main{
+        height: 14.75rem;
+        gap:1rem;
+        padding:1rem 2.5rem;
+    }
+    .main p{
+        left:0;
+        max-width: 60%;
+        font-size: 1.75rem;
+    }
+    .content{
+        left:0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:0.4rem;
+        flex-wrap: wrap;
+    }
+    .content .item{
+        height: 2.1875rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .backIcon{
+        width: 2.1875rem;
+        height: 2.1875rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .data{
+        font-size: 0.675rem;
+    }
+}
+@media(max-width:682px){
+    .main{
+        gap:0;
+        padding: 0 1rem;
+    }
+    .main p{
+        font-size: 1.3rem;
+    }
+    .content{
+        flex-direction:column;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+    }
+    .content .item{
+        flex-direction: row;
+        gap:1rem;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .backIcon{
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+    .data{
+        font-size: 0.775rem;
+    }
+}
+
+

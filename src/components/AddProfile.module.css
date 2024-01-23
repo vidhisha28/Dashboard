@@ -1,0 +1,44 @@
+.mainDiv{
+    width:30.9375rem;
+}
+.main{
+    background-color: #FFFFFF;
+    height: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    gap:0.625rem;
+    border: 0.125rem solid #E0E0E0;
+    box-shadow: 0.25rem 0.25rem 1.25rem 0px #0000001A;
+    border-radius: 1.25rem;
+}
+.main button{
+    height: 5rem;
+    width: 5rem;
+    border: 0.0625rem solid #F2F2F2;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+}
+button .icon{
+    color: #999CA0;
+    font-size: 3.75rem;
+}
+.main p{
+    font-size: 1rem;
+    position: relative;
+    left: 0.125rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    color: #858585;
+    font-family: 'Figtree', sans-serif;
+}
+.main button:hover{
+    background-color: #d1cdcd;
+}
+@media(max-width:670px){
+    .main{
+        height: 14.75rem;
+    }
+}
